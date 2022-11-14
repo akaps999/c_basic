@@ -44,5 +44,5 @@ int main(void) {  // main 함수(method)
 int sum(int x, int y) {
     int temp;
     temp = x + y;
-    return temp; // 함수 종료 후 변환값 , int return 한쌍
+    return temp; // 함수 종료 후 변환값 , int return 한쌍  temp가 지역변수라 return 사용
 }
