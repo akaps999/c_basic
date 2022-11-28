@@ -22,7 +22,7 @@ int main(void) {
     *pt = *pa + *pb;    // total = 10 + 15 = 25
     *pg = *pt / 2.0     // avg = 25 / 2.0 = 12.0
 
-    printf("두 정수의 값: %d, %d|n", *pa, *pb);
-    printf("두 정수의 합: %d|n", *pt);
-    printf("두 정수의 평균: %1lf|n", *pg);
+    printf("두 정수의 값: %d, %d\n", *pa, *pb);
+    printf("두 정수의 합: %d\n", *pt);
+    printf("두 정수의 평균: %1lf\n", *pg);
 }

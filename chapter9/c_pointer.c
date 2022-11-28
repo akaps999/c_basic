@@ -25,7 +25,7 @@ int main(void) {
     double b;
     char c;
 
-    printf("a 函荐 林家: %u|n", &a);
-    printf("b 函荐 林家: %u|n", &b);
-    printf("c 函荐 林家: %u|n", &c);
+    printf("a 函荐 林家: %u\n", &a);
+    printf("b 函荐 林家: %u\n", &b);
+    printf("c 函荐 林家: %u\n", &c);
 }

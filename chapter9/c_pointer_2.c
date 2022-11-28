@@ -23,7 +23,7 @@ int main(void) {
     //  2. 대입 연산자(=) 함께 사용하면 → *pa 실제주소에 값을 넣기
     //  *pa == a 동일
 
-    printf("포인터로 a값 출력: %d|n", *pa);
-    printf("일반변수 a값 출력: %d|n", a);
+    printf("포인터로 a값 출력: %d\n", *pa);
+    printf("일반변수 a값 출력: %d\n", a);
 
 }
